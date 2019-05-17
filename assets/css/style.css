@@ -7,6 +7,15 @@
 
 */
 
+/*
+  Template Name: Varsity
+  Author : MarkUps
+  Author URI: http://www.markups.io/
+  Version: 1.0
+  Tags: light, white, education, online education, school, college, university multi page, custom-colors, Bootstrap, responsive, html5, css3, Sass, template, web template
+
+*/
+
 /* Table of Content
 ==================================================
 #BASIC TYPOGRAPHY
@@ -186,7 +195,7 @@ img {
   width: 100%;
 }
 #mu-menu .navbar-header .navbar-brand {
-  color: #333;
+  color: #debf12;
   font-family: "Montserrat", sans-serif;
   font-size: 26px;
   font-weight: bold;
@@ -201,7 +210,7 @@ img {
   margin-left: 4px;
 }
 #mu-menu .navbar-default {
-  background-color: #fff;
+  background-color: #000;
   border-radius: 0;
   border-left: none;
   border-right: none;
@@ -225,15 +234,15 @@ img {
   border-radius: 0px;
 }
 #mu-menu .navbar-default .navbar-nav li .dropdown-menu li a {
-  color: #333333;
+  color: #34bcaa;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 #mu-menu .navbar-default .navbar-nav li .dropdown-menu li a:hover, #mu-menu .navbar-default .navbar-nav li .dropdown-menu li a:focus {
-  color: #fff;
+  color: #debf12;
 }
 #mu-menu .navbar-default .navbar-nav .open a:hover, #mu-menu .navbar-default .navbar-nav .open a:focus {
-  color: #fff;
+  color: #000;
 }
 
 /* ALL SECTION */
@@ -241,7 +250,7 @@ img {
 .scrollToTop {
   border-radius: 4px;
   bottom: 60px;
-  color: #fff;
+  color: #;
   display: none;
   font-size: 30px;
   line-height: 50px;
@@ -366,7 +375,7 @@ img {
   height: 100%;
 }
 #mu-slider .mu-slider-single .mu-slider-content {
-  color: #fff;
+  color: #debf12;
   position: absolute;
   left: 0;
   right: 0;
@@ -402,10 +411,11 @@ img {
 #mu-slider .slick-next {
   height: 60px;
   width: 60px;
+  background-color: #34bcaa !important;
 }
 #mu-slider .slick-prev:before,
 #mu-slider .slick-next:before {
-  color: #fff;
+  color: #debf12;
   font-size: 25px;
 }
 
@@ -424,28 +434,35 @@ img {
   width: 100%;
 }
 #mu-service .mu-service-area .mu-service-single {
-  background-color: #01bafd;
-  color: #fff;
+  background-color: #debf12;
+  color: #34bcaa;
   display: inline;
   float: left;
   padding: 35px 25px;
   text-align: center;
   width: 33.33%;
+  font-weight: bold;
 }
 #mu-service .mu-service-area .mu-service-single:nth-child(2) {
-  background-color: #2ecc71;
+  background-color: #34bcaa;
+  color: #debf12;
+  font-weight: bold;
 }
 #mu-service .mu-service-area .mu-service-single:nth-child(3) {
-  background-color: #45a0de;
+  background-color: #debf12;
+  color: #34bcaa;
+  font-weight: bold;
 }
 #mu-service .mu-service-area .mu-service-single span {
   font-size: 30px;
+
 }
 #mu-service .mu-service-area .mu-service-single h3 {
   font-size: 25px;
 }
 #mu-service .mu-service-area .mu-service-single p {
   font-weight: lighter;
+  color: #000;
 }
 
 /*==================
@@ -544,7 +561,7 @@ img {
   width: 100%;
 }
 .mu-title h2 {
-  color: #000;
+  color: #debf12;
   margin-bottom: 10px;
   text-transform: uppercase;
 }
@@ -637,9 +654,10 @@ img {
   margin-top: 15px;
   padding-bottom: 10px;
   position: relative;
+  color: #debf12;
 }
 #mu-features .mu-features-area .mu-features-content .mu-single-feature h4:after {
-  background-color: #333;
+  background-color: #debf12;
   content: '';
   left: 0;
   right: 0;
@@ -652,9 +670,10 @@ img {
   font-size: 15px;
   letter-spacing: 0.3px;
   line-height: 1.7;
+  color: #34bcaa
 }
 #mu-features .mu-features-area .mu-features-content .mu-single-feature a {
-  border: 1px solid #888;
+  border: 1px solid #000;
   display: inline-block;
   font-size: 14px;
   margin-top: 10px;
@@ -683,10 +702,10 @@ img {
   width: 100%;
 }
 #mu-latest-courses .mu-latest-courses-area .mu-title h2 {
-  color: #fff;
+  color: #debf12;
 }
 #mu-latest-courses .mu-latest-courses-area .mu-title p {
-  color: #fff;
+  color: ##34bcaa;
 }
 #mu-latest-courses .mu-latest-courses-area .mu-latest-courses-content {
   display: inline;
@@ -757,7 +776,7 @@ img {
   line-height: 1.4;
 }
 .mu-latest-course-single .mu-latest-course-single-content h4 a {
-  color: #333;
+  color: #debf12;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -ms-transition: all 0.5s;
@@ -768,6 +787,8 @@ img {
   font-size: 14px;
   letter-spacing: 0.3px;
   line-height: 1.7;
+  color: #34bcaa;
+
 }
 .mu-latest-course-single .mu-latest-course-single-content .mu-latest-course-single-contbottom {
   border-top: 1px solid #ccc;
@@ -882,14 +903,16 @@ img {
   display: inline;
   float: left;
   width: 100%;
+
 }
 #mu-our-teacher .mu-our-teacher-area .mu-our-teacher-content .mu-our-teacher-single .mu-ourteacher-single-content h4 {
   margin-bottom: 0;
   margin-top: 20px;
   text-transform: uppercase;
+  color: #34bcaa
 }
 #mu-our-teacher .mu-our-teacher-area .mu-our-teacher-content .mu-our-teacher-single .mu-ourteacher-single-content span {
-  color: #000;
+  color: #debf12;
   display: block;
   font-size: 14px;
   margin-bottom: 8px;
@@ -897,6 +920,7 @@ img {
 }
 #mu-our-teacher .mu-our-teacher-area .mu-our-teacher-content .mu-our-teacher-single .mu-ourteacher-single-content p {
   font-size: 15px;
+  color: #34bcaa;
 }
 
 /*==================
@@ -1936,12 +1960,12 @@ img {
   width: 100%;
 }
 #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget h4 {
-  color: #fff;
+  color: #debf12;
   margin-bottom: 15px;
   text-transform: uppercase;
 }
 #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget ul li a {
-  color: #f9f9f9;
+  color: #34bcaa;
   display: inline-block;
   font-size: 14px;
   font-weight: normal;
@@ -1965,7 +1989,7 @@ img {
   margin-left: 5px;
 }
 #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget p {
-  color: #f9f9f9;
+  color: #34bcaa;
 }
 #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget .mu-subscribe-form {
   display: inline;
@@ -1974,7 +1998,7 @@ img {
   width: 100%;
 }
 #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget .mu-subscribe-form input[type="email"] {
-  border: 1px solid #ccc;
+  border: 1px solid #000;
   border-radius: 4px;
   color: #000;
   font-size: 15px;
@@ -1989,7 +2013,7 @@ img {
   transition: all 0.5s;
 }
 #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget .mu-subscribe-form .mu-subscribe-btn {
-  color: #fff;
+  color: #debf12;
   border: medium none;
   border-radius: 4px;
   font-size: 14px;
@@ -2001,11 +2025,12 @@ img {
   letter-spacing: 0.5px;
 }
 #mu-footer .mu-footer-bottom {
-  background-color: #222;
+  background-color: #000;
   display: inline;
   float: left;
   padding: 25px 0;
   width: 100%;
+
 }
 #mu-footer .mu-footer-bottom .mu-footer-bottom-area {
   display: inline;
@@ -2014,12 +2039,12 @@ img {
   width: 100%;
 }
 #mu-footer .mu-footer-bottom .mu-footer-bottom-area p {
-  color: #fff;
+  color: #debf12;
   margin-bottom: 0;
   letter-spacing: 0.3px;
 }
 #mu-footer .mu-footer-bottom .mu-footer-bottom-area p a {
-  color: #fff;
+  color: #34bcaa;
 }
 
 /*==================
@@ -2058,11 +2083,13 @@ img {
     font-size: 15px;
     margin-top: 5px;
     padding: 5px 15px;
+    color: #34bcaa;
   }
 
   #mu-slider .mu-slider-single .mu-slider-content p {
     font-size: 16px;
     line-height: 1.5;
+    color: #debf12
   }
 
   #mu-service .mu-service-area .mu-service-single h3 {
@@ -2103,6 +2130,7 @@ img {
 
   .mu-title p {
     padding: 0 20px;
+    color: #34bcaa
   }
 
   #mu-features .mu-features-area .mu-features-content {
