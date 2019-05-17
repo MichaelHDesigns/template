@@ -9,39 +9,40 @@ Author URI : http://www.markups.io/
 }
 
 .mu-read-more-btn:hover, .mu-read-more-btn:focus {
-  background-color: #01bafd;
-  border-color: #01bafd;
+  background-color: #debf12;
+  border-color: #debf12;
 }
 
 .mu-post-btn:hover, .mu-post-btn:focus {
-  background-color: #01bafd;
+  background-color: #34bcaa !important;
   border-color: #01bafd;
+  
 }
 
 #mu-header .mu-header-area .mu-header-top-right .mu-top-social-nav li a:hover, #mu-header .mu-header-area .mu-header-top-right .mu-top-social-nav li a:focus {
-  color: #01bafd;
+  color: #34bcaa;
 }
 
 #mu-menu .navbar-header .navbar-brand i {
   color: #01bafd;
 }
 #mu-menu .navbar-default .navbar-nav li > a:hover, #mu-menu .navbar-default .navbar-nav li > a:focus {
-  border-color: #01bafd;
-  color: #01bafd;
+  border-color: transparent;
+  color: #34bcaa;
 }
 #mu-menu .navbar-default .navbar-nav li .dropdown-menu {
-  border-top: 2px solid #01bafd;
+  border-top: 2px solid transparent;
 }
 #mu-menu .navbar-default .navbar-nav li .dropdown-menu li a:hover, #mu-menu .navbar-default .navbar-nav li .dropdown-menu li a:focus {
-  background-color: #01bafd;
+  background-color: #000;
 }
 #mu-menu .navbar-default .navbar-nav .open a:hover, #mu-menu .navbar-default .navbar-nav .open a:focus {
   background-color: #01bafd;
 }
 
 #mu-menu .navbar-default .navbar-nav > .active > a, #mu-menu .navbar-default .navbar-nav > .active > a:hover, #mu-menu .navbar-default .navbar-nav > .active > a:focus {
-  color: #01bafd;
-  border-bottom: 2px solid #01bafd;
+  color: #34bcaa;
+  border-bottom: 2px solid #debf12;
   background-color: transparent;
 }
 
@@ -50,7 +51,7 @@ Author URI : http://www.markups.io/
 }
 
 #mu-slider .mu-slider-single .mu-slider-content span {
-  background-color: #01bafd;
+  background-color: #debf12;
 }
 #mu-slider .slick-prev,
 #mu-slider .slick-next {
