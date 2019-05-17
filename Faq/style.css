@@ -1705,6 +1705,7 @@ img{
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
+	top: 50px;
 }
 
 .work-step{
@@ -1820,6 +1821,7 @@ img{
 
 .work-section.style-two.alternate{
 	padding-bottom: 130px;
+	
 }
 
 .work-section.style-two.alternate .work-step{
