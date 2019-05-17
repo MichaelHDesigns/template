@@ -32,9 +32,9 @@
 
 /* BASE - Base tyles, Variables, Mixins, etc. */
 body {
-  background-color: #ffffff;
+  background-color: #000;
   font-family: "Roboto", sans-serif;
-  color: #333333;
+  color: rgb(255, 192, 34);
   font-size: 16px;
   overflow-x: hidden;
 }
@@ -56,13 +56,14 @@ ul {
 
 a {
   text-decoration: none;
-  color: #333333;
+  color: rgb(255, 192, 34);
 }
 
 a:hover,
 a:focus {
   outline: none;
   text-decoration: none;
+  color: #34bcaa;
 }
 
 h1, h2, h3, h4, h5, h6 {
