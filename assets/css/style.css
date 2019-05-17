@@ -2084,7 +2084,7 @@ img {
     font-size: 15px;
     margin-top: 5px;
     padding: 5px 15px;
-    color: #34bcaa;
+    color: #34bcaa !important;
   }
 
   #mu-slider .mu-slider-single .mu-slider-content p {
