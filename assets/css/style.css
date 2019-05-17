@@ -2089,7 +2089,7 @@ img {
   #mu-slider .mu-slider-single .mu-slider-content p {
     font-size: 16px;
     line-height: 1.5;
-    color: #debf12
+    color: #debf12 !important;
   }
 
   #mu-service .mu-service-area .mu-service-single h3 {
