@@ -3,14 +3,16 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">    
-    <title>Varsity | Blog Single</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">   
+	 
+    <title>Varsity | Home</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
 
     <!-- Font awesome -->
     <link href="assets/css/font-awesome.css" rel="stylesheet">
+	  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <!-- Bootstrap -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">   
     <!-- Slick slider -->
@@ -18,10 +20,11 @@
     <!-- Fancybox slider -->
     <link rel="stylesheet" href="assets/css/jquery.fancybox.css" type="text/css" media="screen" /> 
     <!-- Theme color -->
-    <link id="switcher" href="assets/css/theme-color/default-theme.css" rel="stylesheet">    
+    <link id="switcher" href="assets/css/theme-color/default-theme.css" rel="stylesheet">          
 
     <!-- Main style sheet -->
     <link href="assets/css/style.css" rel="stylesheet">    
+	  <link href="Partners/style.css" rel="stylesheet">
 
    
     <!-- Google Fonts -->
@@ -37,8 +40,8 @@
     <![endif]-->
 
   </head>
-  <body>
-  
+  <body> 
+
   <!--START SCROLL TOP BUTTON -->
     <a class="scrollToTop" href="#">
       <i class="fa fa-angle-up"></i>      
@@ -53,26 +56,14 @@
           <div class="mu-header-area">
             <div class="row">
               <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                <div class="mu-header-top-left">
-                  <div class="mu-top-email">
-                    <i class="fa fa-envelope"></i>
-                    <span>info@markups.io</span>
-                  </div>
-                  <div class="mu-top-phone">
-                    <i class="fa fa-phone"></i>
-                    <span>(568) 986 652</span>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                 <div class="mu-header-top-right">
                   <nav>
                     <ul class="mu-top-social-nav">
-                      <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-                      <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-                      <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
-                      <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
-                      <li><a href="#"><span class="fa fa-youtube"></span></a></li>
+                      <li><a href="https://www.facebook.com/HelptheHomelessCoinOfficial"><span class="fab fa-facebook"></span></a></li>
+                      <li><a href="https://twitter.com/hthcoin"><span class="fab fa-twitter"></span></a></li>
+                      <li><a href="https://discord.gg/xqGjacW"><span class="fab fa-discord"></span></a></li>
+                      <li><a href="https://www.reddit.com/user/HTHCoin"><span class="fab fa-reddit"></span></a></li>
+                      <li><a href="https://www.youtube.com/channel/UCsKeJJnVF1xCSZpLmExLCNw"><span class="fab fa-youtube"></span></a></li>
                     </ul>
                   </nav>
                 </div>
@@ -98,37 +89,50 @@
           </button>
           <!-- LOGO -->              
           <!-- TEXT BASED LOGO -->
-          <a class="navbar-brand" href="index.html"><i class="fa fa-university"></i><span>Varsity</span></a>
+         <!-- <a class="navbar-brand" href="index.html"><i class="fa fa-university"></i><span>Varsity</span></a> -->
           <!-- IMG BASED LOGO  -->
           <!-- <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" alt="logo"></a> -->
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul id="top-menu" class="nav navbar-nav navbar-right main-nav">
-            <li><a href="index.html">Home</a></li>            
+            <li class="active"><a href="index.html">Home</a></li>            
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Course <span class="fa fa-angle-down"></span></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Partners <span class="fa fa-angle-down"></span></a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="course.html">Course Archive</a></li>                
-                <li><a href="course-detail.html">Course Detail</a></li>                
+                <li><a href="partners.html">Partners</a></li>                
+                <li><a href="cryptopartners.html">Crypto Partners</a></li> 
+		      
+              </ul>
+            </li>           
+		  <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Exchanges <span class="fa fa-angle-down"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="https://wallet.crypto-bridge.org/market/BRIDGE.HTH_BRIDGE.BTC">Crypto-Bridge</a></li>                
+                <li><a href="https://smartrade.com/">SmartTrade</a></li>    
+		<li><a href="https://novaexchange.com/market/BTC_HTH">Nova Exchange</a></li>
+		<li><a href="https://www.probitex.com/trade/index/market/hth_btc">ProBitEx</a></li>
               </ul>
             </li>           
             <li><a href="gallery.html">Gallery</a></li>
-            <li class="dropdown active">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <span class="fa fa-angle-down"></span></a>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Information <span class="fa fa-angle-down"></span></a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="blog-archive.html">Blog Archive</a></li>                
-                <li><a href="blog-single.html">Blog Single</a></li>                
+                <li><a href="resources.html">Resources</a></li>                
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="https://github.com/HTHcoin/HTH/wiki/HTH-Help-The-Homeless-Coin-wiki/">HTH Wiki</a></li>
+                <li><a href="https://github.com/HTHcoin/HTH/blob/master/Light_Paper.pdf">Light Paper</a></li>
               </ul>
             </li>            
             <li><a href="contact.html">Contact</a></li>
             <li><a href="404.html">404 Page</a></li>               
             <li><a href="#" id="mu-search-icon"><i class="fa fa-search"></i></a></li>
-          </ul>                    
+          </ul>                     
         </div><!--/.nav-collapse -->        
       </div>     
     </nav>
   </section>
   <!-- End menu -->
+    
   <!-- Start search box -->
   <div id="mu-search">
     <div class="mu-search-area">      
@@ -145,430 +149,134 @@
     </div>
   </div>
   <!-- End search box -->
- <!-- Page breadcrumb -->
- <section id="mu-page-breadcrumb">
-   <div class="container">
-     <div class="row">
-       <div class="col-md-12">
-         <div class="mu-page-breadcrumb-area">
-           <h2>Blog Single</h2>
-           <ol class="breadcrumb">
-            <li><a href="#">Home</a></li>            
-            <li class="active">Blog Single</li>
-          </ol>
-         </div>
-       </div>
-     </div>
-   </div>
- </section>
- <!-- End breadcrumb -->
- <section id="mu-course-content">
-   <div class="container">
-     <div class="row">
-       <div class="col-md-12">
-         <div class="mu-course-content-area">
-            <div class="row">
-              <div class="col-md-9">
-                <!-- start course content container -->
-                <div class="mu-course-container mu-blog-single">
-                  <div class="row">
-                    <div class="col-md-12">
-                      <article class="mu-blog-single-item">
-                        <figure class="mu-blog-single-img">
-                          <a href="#"><img alt="img" src="assets/img/blog/blog-3.jpg"></a>
-                          <figcaption class="mu-blog-caption">
-                            <h3><a href="#">Lorem ipsum dolor sit amet.</a></h3>
-                          </figcaption>                      
-                        </figure>
-                        <div class="mu-blog-meta">
-                          <a href="#">By Admin</a>
-                          <a href="#">02 June 2016</a>
-                          <span><i class="fa fa-comments-o"></i>87</span>
+    
+ <!-- Event Section -->
+<section class="event-section" style="background: #000">
+    <div class="auto-container">
+        <div class="event-list">
+            <div class="row clearfix">
+                <!-- FAQ Block -->
+                <div class="event-block col-md-6 col-sm-6 col-xs-12">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <div class="question"><i class="fa fa-question"></i></div>
                         </div>
-                        <div class="mu-blog-description">
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae ipsum non voluptatum eum repellendus quod aliquid. Vitae, dolorum voluptate quis repudiandae eos molestiae dolores enim.</p>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus autem molestias nostrum eius optio et rem, cum voluptatibus aperiam soluta reiciendis quae nisi, debitis totam harum nulla! Voluptatem commodi quis, atque labore, sapiente tempora temporibus, repellendus laboriosam sunt aut dolores laborum libero? Laudantium non, enim, repellat recusandae quisquam aperiam hic amet corporis ipsam. Similique velit ipsa, quasi assumenda consequuntur earum.</p>
-                          <blockquote>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas numquam quis obcaecati, a sed ad aut totam fugiat, cumque quasi!</p>                            
-                          </blockquote>
-                          <h1>Lorem ipsum dolor sit amet.</h1>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam distinctio voluptatibus sequi sint, in. Soluta alias sunt, voluptates necessitatibus neque, perspiciatis, quos doloribus quae non tempore ut qui facere nulla.</p>
-                          <h2>Lorem ipsum dolor sit amet, consectetur.</h2>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus dolor totam architecto voluptatum, unde non ipsum officia adipisci, eos error, expedita corporis laudantium esse. Mollitia minus, molestias doloremque! Earum, fuga!</p>
-                          <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus omnis laudantium magni ut voluptatum, asperiores consequatur ducimus tempore enim possimus aliquid eius aliquam nam quasi itaque officiis debitis ad minima.</p>
-                          <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum officia iure voluptas deleniti tempora eum ipsa explicabo tenetur laborum doloribus, perferendis quam enim molestiae. Officia numquam harum quam blanditiis sapiente!</p>
-                          <ul>
-                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                            <li>Obcaecati quas earum minima perspiciatis corrupti quasi cum.</li>
-                            <li>Vero mollitia voluptas libero praesentium ut dolor, labore.</li>
-                            <li>Eius, odit, incidunt. Voluptates iusto, a sapiente reiciendis?</li>
-                            <li>Quos, tenetur voluptas, dolore sapiente nisi repellat odio.</li>
-                          </ul>
-                          
+                        <div class="content-box">
+                            <h4><a href="https://hthcoin.world/event-grid.html">What is HTH Coin?</a></h4>
+                            <p>HTH Coin, or Help the Homeless Coin, is a
+ cryptocurrency with goals in helping those who are in a situation where
+ they can no longer support themselves or are homeless through 
+extraneous circumstances.</p>
                         </div>
-                        <!-- start blog post tags -->
-                        <div class="mu-blog-tags">
-                          <ul class="mu-news-single-tagnav">
-                            <li>TAGS :</li>
-                            <li><a href="#">Science,</a></li>
-                            <li><a href="#">English,</a></li>
-                            <li><a href="#">Sports,</a></li>
-                            <li><a href="#">Health</a></li>
-                          </ul>
-                        </div>
-                        <!-- End blog post tags -->
-                        <!-- start blog social share -->
-                        <div class="mu-blog-social">
-                          <ul class="mu-news-social-nav">
-                            <li>SOCIAL SHARE :</li>
-                            <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-                            <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-                            <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
-                            <li><a href="#"><span class="fa fa-google-plus"></span></a></li>
-                          </ul>
-                        </div>
-                        <!-- End blog social share -->
-                      </article>
-                    </div>                                   
-                  </div>
+                    </div>
                 </div>
-                <!-- end course content container -->
-                <!-- start blog navigation -->
-                <div class="row">
-                  <div class="col-md-12">
-                    <div class="mu-blog-single-navigation">
-                      <a class="mu-blog-prev" href="#"><span class="fa fa-angle-left"></span>Prev</a>
-                      <a class="mu-blog-next" href="#">Next<span class="fa fa-angle-right"></span></a>
+                <!-- FAQ Block -->
+                <div class="event-block col-md-6 col-sm-6 col-xs-12">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <div class="question"><i class="fa fa-question"></i></div>
+                        </div>
+                        <div class="content-box">
+                            <h4><a href="https://hthcoin.world/event-grid.html">Who is the team and what do they bring?</a></h4>
+                            <p>The team is a collective of individuals 
+from around the world who are using the technology that they know to 
+tackle a problem which they all feel strongly enough to try to do 
+something about. Spread out across the world, each of the team come with
+ their own story, and are passionately involved in charity.</p>
+                        </div>
                     </div>
-                  </div>
                 </div>
-                <!-- end blog navigation -->
-                <!-- start related course item -->
-                <div class="row">
-                  <div class="col-md-12">
-                    <div class="mu-related-item">
-                      <h3>Related News</h3>
-                      <div class="mu-related-item-area">
-                        <div id="mu-related-item-slide">
-                          <div class="col-md-6">
-                            <article class="mu-blog-single-item">
-                              <figure class="mu-blog-single-img">
-                                <a href="#"><img alt="img" src="assets/img/blog/blog-1.jpg"></a>
-                                <figcaption class="mu-blog-caption">
-                                  <h3><a href="#">Lorem ipsum dolor sit amet.</a></h3>
-                                </figcaption>                      
-                              </figure>
-                              <div class="mu-blog-meta">
-                                <a href="#">By Admin</a>
-                                <a href="#">02 June 2016</a>
-                                <span><i class="fa fa-comments-o"></i>87</span>
-                              </div>
-                              <div class="mu-blog-description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae ipsum non voluptatum eum repellendus quod aliquid. Vitae, dolorum voluptate quis repudiandae eos molestiae dolores enim.</p>
-                                <a href="#" class="mu-read-more-btn">Read More</a>
-                              </div>
-                            </article>
-                          </div>
-                          <div class="col-md-6">
-                            <article class="mu-blog-single-item">
-                              <figure class="mu-blog-single-img">
-                                <a href="#"><img alt="img" src="assets/img/blog/blog-2.jpg"></a>
-                                <figcaption class="mu-blog-caption">
-                                  <h3><a href="#">Lorem ipsum dolor sit amet.</a></h3>
-                                </figcaption>                      
-                              </figure>
-                              <div class="mu-blog-meta">
-                                <a href="#">By Admin</a>
-                                <a href="#">02 June 2016</a>
-                                <span><i class="fa fa-comments-o"></i>87</span>
-                              </div>
-                              <div class="mu-blog-description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae ipsum non voluptatum eum repellendus quod aliquid. Vitae, dolorum voluptate quis repudiandae eos molestiae dolores enim.</p>
-                                <a href="#" class="mu-read-more-btn">Read More</a>
-                              </div>
-                            </article>
-                          </div>
-                          <div class="col-md-6">
-                           <article class="mu-blog-single-item">
-                              <figure class="mu-blog-single-img">
-                                <a href="#"><img alt="img" src="assets/img/blog/blog-3.jpg"></a>
-                                <figcaption class="mu-blog-caption">
-                                  <h3><a href="#">Lorem ipsum dolor sit amet.</a></h3>
-                                </figcaption>                      
-                              </figure>
-                              <div class="mu-blog-meta">
-                                <a href="#">By Admin</a>
-                                <a href="#">02 June 2016</a>
-                                <span><i class="fa fa-comments-o"></i>87</span>
-                              </div>
-                              <div class="mu-blog-description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae ipsum non voluptatum eum repellendus quod aliquid. Vitae, dolorum voluptate quis repudiandae eos molestiae dolores enim.</p>
-                                <a href="#" class="mu-read-more-btn">Read More</a>
-                              </div>
-                            </article>
-                          </div>
-                          <div class="col-md-6">
-                            <article class="mu-blog-single-item">
-                              <figure class="mu-blog-single-img">
-                                <a href="#"><img alt="img" src="assets/img/blog/blog-1.jpg"></a>
-                                <figcaption class="mu-blog-caption">
-                                  <h3><a href="#">Lorem ipsum dolor sit amet.</a></h3>
-                                </figcaption>                      
-                              </figure>
-                              <div class="mu-blog-meta">
-                                <a href="#">By Admin</a>
-                                <a href="#">02 June 2016</a>
-                                <span><i class="fa fa-comments-o"></i>87</span>
-                              </div>
-                              <div class="mu-blog-description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae ipsum non voluptatum eum repellendus quod aliquid. Vitae, dolorum voluptate quis repudiandae eos molestiae dolores enim.</p>
-                                <a href="#" class="mu-read-more-btn">Read More</a>
-                              </div>
-                            </article>
-                          </div>
+                <!-- FAQ Block -->
+                <div class="event-block col-md-6 col-sm-6 col-xs-12">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <div class="question"><i class="fa fa-question"></i></div>
                         </div>
-                      </div>
+                        <div class="content-box">
+                            <h4><a href="https://hthcoin.world/event-grid.html">How do you plan on delivering these charity funds to the homeless?</a></h4>
+                            <p>We will actively visit local homeless 
+shelters, and other local charities providing them with information 
+about HTH Coin and how we can help them. Donations will be focused on 
+the charities who can really make a difference to peoples lives now, so 
+the fund will be donated directly to them. This will be used for things 
+like food, shelter, clothing, and rehabilitation.</p>
+                        </div>
                     </div>
-                  </div>
                 </div>
-                <!-- end start related course item -->
-                <!-- start blog comment -->
-                <div class="row">
-                  <div class="col-md-12">
-                    <div class="mu-comments-area">
-                      <h3>5 Comments</h3>
-                      <div class="comments">
-                        <ul class="commentlist">
-                          <li>
-                            <div class="media">
-                              <div class="media-left">    
-                                <img alt="img" src="assets/img/testimonial-1.png" class="media-object news-img">
-                              </div>
-                              <div class="media-body">
-                               <h4 class="author-name">David Muller</h4>
-                               <span class="comments-date"> Posted on 12th June, 2016</span>
-                               <p>Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</p>
-                               <a class="reply-btn" href="#">Reply <span class="fa fa-long-arrow-right"></span></a>
-                              </div>
-                            </div>
-                          </li>
-                          <li>
-                            <div class="media">
-                              <div class="media-left">    
-                                <img alt="img" src="assets/img/testimonial-2.png" class="media-object news-img">
-                              </div>
-                              <div class="media-body">
-                               <h4 class="author-name">John Doe</h4>
-                               <span class="comments-date"> Posted on 12th June, 2016</span>
-                               <p>Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</p>
-                               <a class="reply-btn" href="#">Reply <span class="fa fa-long-arrow-right"></span></a>
-                              </div>
-                            </div>
-                          </li>
-                          <ul class="children">
-                            <li class="author-comments">
-                              <div class="media">
-                                <div class="media-left">    
-                                  <img alt="img" src="assets/img/testimonial-3.png" class="media-object news-img">
-                                </div>
-                                <div class="media-body">
-                                 <h4 class="author-name">Admin</h4>
-                                 <span class="comments-date"> Posted on 12th June, 2016</span>
-                                 <span class="author-tag">Author</span>
-                                 <p>Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</p>
-                                 <a class="reply-btn" href="#">Reply <span class="fa fa-long-arrow-right"></span></a>
-                                </div>
-                              </div>
-                            </li>
-                            <ul class="children">
-                              <li>
-                                <div class="media">
-                                  <div class="media-left">    
-                                    <img alt="img" src="assets/img/testimonial-1.png" class="media-object news-img">
-                                  </div>
-                                  <div class="media-body">
-                                   <h4 class="author-name">David Muller</h4>
-                                   <span class="comments-date"> Posted on 12th June, 2016</span>
-                                   <p>Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</p>
-                                   <a class="reply-btn" href="#">Reply <span class="fa fa-long-arrow-right"></span></a>
-                                  </div>
-                                </div>
-                              </li>
-                            </ul>
-                          </ul>
-                          <li>
-                            <div class="media">
-                              <div class="media-left">    
-                                <img alt="img" src="assets/img/testimonial-2.png" class="media-object news-img">
-                              </div>
-                              <div class="media-body">
-                               <h4 class="author-name">Jhon Doe</h4>
-                               <span class="comments-date"> Posted on 12th June, 2016</span>
-                               <p>Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English</p>
-                               <a class="reply-btn" href="#">Reply <span class="fa fa-long-arrow-right"></span></a>
-                              </div>
-                            </div>
-                          </li>
-                        </ul>
-                        <!-- comments pagination -->
-                        <nav>
-                          <ul class="pagination comments-pagination">
-                            <li>
-                              <a aria-label="Previous" href="#">
-                                <span class="fa fa-long-arrow-left"></span>
-                              </a>
-                            </li>
-                            <li><a href="#">1</a></li>
-                            <li><a href="#">2</a></li>
-                            <li><a href="#">3</a></li>
-                            <li><a href="#">4</a></li>
-                            <li><a href="#">5</a></li>
-                            <li>
-                              <a aria-label="Next" href="#">
-                                <span class="fa fa-long-arrow-right"></span>
-                              </a>
-                            </li>
-                          </ul>
-                        </nav>
-                      </div>
+                <!-- FAQ Block -->
+                <div class="event-block col-md-6 col-sm-6 col-xs-12">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <div class="question"><i class="fa fa-question"></i></div>
+                        </div>
+                        <div class="content-box">
+                            <h4><a href="https://hthcoin.world/event-grid.html">Is there a pre-sale or ICO, where can I buy HTH today?</a></h4>
+                            <p>We firmly believe that not having a 
+pre-finance of any kind is the image that we want to put forward. Any 
+development costs have come from the founders themselves and will allow 
+for the fairest launch possible. The team has also applied for listing 
+with Crypto-Bridge so that HTH Coin can be exchanged as soon as possible
+ to allow us to get people the help they so desperately need.</p>
+                        </div>
                     </div>
-                  </div>
                 </div>
-                <!-- end blog comment -->
-                <!-- start respond form -->
-                <div class="row">
-                  <div class="col-md-12">
-                    <div id="respond">
-                      <h3 class="reply-title">Leave a Comment</h3>
-                      <form id="commentform">
-                        <p class="comment-notes">
-                          Your email address will not be published. Required fields are marked <span class="required">*</span>
-                        </p>
-                        <p class="comment-form-author">
-                          <label for="author">Name <span class="required">*</span></label>
-                          <input type="text" required="required" size="30" value="" name="author">
-                        </p>
-                        <p class="comment-form-email">
-                          <label for="email">Email <span class="required">*</span></label>
-                          <input type="email" required="required" aria-required="true" value="" name="email">
-                        </p>
-                        <p class="comment-form-url">
-                          <label for="url">Website</label>
-                          <input type="url" value="" name="url">
-                        </p>
-                        <p class="comment-form-comment">
-                          <label for="comment">Comment</label>
-                          <textarea required="required" aria-required="true" rows="8" cols="45" name="comment"></textarea>
-                        </p>
-                        <p class="form-allowed-tags">
-                          You may use these <abbr title="HyperText Markup Language">HTML</abbr> tags and attributes:  <code>&lt;a href="" title=""&gt; &lt;abbr title=""&gt; &lt;acronym title=""&gt; &lt;b&gt; &lt;blockquote cite=""&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=""&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=""&gt; &lt;s&gt; &lt;strike&gt; &lt;strong&gt; </code>
-                        </p>
-                        <p class="form-submit">
-                          <input type="submit" value="Post Comment" class="mu-post-btn" name="submit">
-                        </p>        
-                      </form>
+                <!-- FAQ Block -->
+                <div class="event-block col-md-6 col-sm-6 col-xs-12">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <div class="question"><i class="fa fa-question"></i></div>
+                        </div>
+                        <div class="content-box">
+                            <h4><a href="https://hthcoin.world/event-grid.html">How will you raise HTH Coin for charity?</a></h4>
+                            <p>From every block mined, HTH Coin will 
+take 15% for charity and 10% for a Development Fund, this way we can 
+keep actively developing on HTH Coin and support charity all the way. 
+The remaining 75% will be split, 25% to masternode holders and 50% to 
+the miners who are the backbone to making this work.</p>
+                        </div>
                     </div>
-                  </div>
                 </div>
-                <!-- end respond form -->
-              </div>
-              <div class="col-md-3">
-                <!-- start sidebar -->
-                <aside class="mu-sidebar">
-                  <!-- start single sidebar -->
-                  <div class="mu-single-sidebar">
-                    <h3>Categories</h3>
-                    <ul class="mu-sidebar-catg">
-                      <li><a href="#">Web Design</a></li>
-                      <li><a href="">Web Development</a></li>
-                      <li><a href="">Math</a></li>
-                      <li><a href="">Physics</a></li>
-                      <li><a href="">Camestry</a></li>
-                      <li><a href="">English</a></li>
-                    </ul>
-                  </div>
-                  <!-- end single sidebar -->
-                  <!-- start single sidebar -->
-                  <div class="mu-single-sidebar">
-                    <h3>Popular News</h3>
-                    <div class="mu-sidebar-popular-courses">
-                      <div class="media">
-                        <div class="media-left">
-                          <a href="#">
-                            <img class="media-object" src="assets/img/courses/1.jpg" alt="img">
-                          </a>
+                <!-- FAQ Block -->
+                <div class="event-block col-md-6 col-sm-6 col-xs-12">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <div class="question"><i class="fa fa-question"></i></div>
                         </div>
-                        <div class="media-body">
-                          <h4 class="media-heading"><a href="#">Medical Science</a></h4>                      
-                          <span class="popular-course-price">$200.00</span>
+                        <div class="content-box">
+                            <h4><a href="https://hthcoin.world/event-grid.html">Where can we see the charity on HTH Coin raised?</a></h4>
+                            <p>Our website will provide you with 
+information about how much charity is raised based on real-time market 
+prices of HTH Coin. We to be transparent about everything to do with the
+ donations. When the process matures we hope to bring in more feature 
+which will allow patrons and charities to put forward request and 
+suggestions for the future.</p>
                         </div>
-                      </div>
-                      <div class="media">
-                        <div class="media-left">
-                          <a href="#">
-                            <img class="media-object" src="assets/img/courses/2.jpg" alt="img">
-                          </a>
-                        </div>
-                        <div class="media-body">
-                          <h4 class="media-heading"><a href="#">Web Design</a></h4>                      
-                          <span class="popular-course-price">$250.00</span>
-                        </div>
-                      </div>
-                      <div class="media">
-                        <div class="media-left">
-                          <a href="#">
-                            <img class="media-object" src="assets/img/courses/3.jpg" alt="img">
-                          </a>
-                        </div>
-                        <div class="media-body">
-                          <h4 class="media-heading"><a href="#">Health & Sports</a></h4>                      
-                          <span class="popular-course-price">$90.00</span>
-                        </div>
-                      </div>
                     </div>
-                  </div>
-                  <!-- end single sidebar -->
-                  <!-- start single sidebar -->
-                  <div class="mu-single-sidebar">
-                    <h3>Archives</h3>
-                    <ul class="mu-sidebar-catg mu-sidebar-archives">
-                      <li><a href="#">May <span>(25)</span></a></li>
-                      <li><a href="">June <span>(35)</span></a></li>
-                      <li><a href="">July <span>(20)</span></a></li>
-                      <li><a href="">August <span>(125)</span></a></li>
-                      <li><a href="">September <span>(45)</span></a></li>
-                      <li><a href="">October <span>(85)</span></a></li>
-                    </ul>
-                  </div>
-                  <!-- end single sidebar -->
-                  <!-- start single sidebar -->
-                  <div class="mu-single-sidebar">
-                    <h3>Tags Cloud</h3>
-                    <div class="tag-cloud">
-                      <a href="#">Health</a>
-                      <a href="#">Science</a>
-                      <a href="#">Sports</a>
-                      <a href="#">Mathematics</a>
-                      <a href="#">Web Design</a>
-                      <a href="#">Admission</a>
-                      <a href="#">History</a>
-                      <a href="#">Environment</a>
+                </div>
+                <!-- FAQ Block -->
+                <div class="event-block col-md-6 col-sm-6 col-xs-12">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <div class="question"><i class="fa fa-question"></i></div>
+                        </div>
+                        <div class="content-box">
+                            <h4><a href="https://hthcoin.world/event-grid.html">Can we support HTH Coin in any other way?</a></h4>
+                            <p>Yes, we will have facilities for donation
+ in cryptocurrency, but you can also support the coin through social 
+media. But there are plenty of other ways in which you can help, and we 
+will provide as much information as possible on the charities which we 
+aid so that you can help in any way that suits. Finally, you can simply 
+mine HTH Coin at one of the many supporting pools.</p>
+                        </div>
                     </div>
-                  </div>
-                  <!-- end single sidebar -->
-                </aside>
-                <!-- / end sidebar -->
-             </div>
-           </div>
-         </div>
-       </div>
-     </div>
-   </div>
- </section>
-
-  <!-- Start footer -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Event Section -->
+    
+ <!-- Start footer -->
   <footer id="mu-footer">
     <!-- start footer top -->
     <div class="mu-footer-top">
@@ -590,13 +298,13 @@
             </div>
             <div class="col-lg-3 col-md-3 col-sm-3">
               <div class="mu-footer-widget">
-                <h4>Student Help</h4>
+                <h4>Helpful Links</h4>
                 <ul>
-                  <li><a href="">Get Started</a></li>
-                  <li><a href="#">My Questions</a></li>
-                  <li><a href="">Download Files</a></li>
-                  <li><a href="">Latest Course</a></li>
-                  <li><a href="">Academic News</a></li>                  
+                  <li><a href="https://cmc.io/coins/help-the-homeless-coin">Coin Market Cap</a></li>
+                  <li><a href="https://www.coingecko.com/en/coins/help-the-homeless-coin">Coin Gecko</a></li>
+                  <li><a href="https://masternode.plus/coin/HTH">Masternodes</a></li>
+                  <li><a href="https://cointomine.today/calculator/coin/HTH/">HTH Calculator</a></li>
+                  <li><a href="https://wheretomine.io/coins/help-the-homeless.html">Where To Mine</a></li>                  
                 </ul>
               </div>
             </div>
@@ -609,15 +317,15 @@
                   <button class="mu-subscribe-btn" type="submit">Subscribe!</button>
                 </form>               
               </div>
-            </div>
+            </div> 
             <div class="col-lg-3 col-md-3 col-sm-3">
               <div class="mu-footer-widget">
                 <h4>Contact</h4>
                 <address>
-                  <p>P.O. Box 320, Ross, California 9495, USA</p>
-                  <p>Phone: (415) 453-1568 </p>
-                  <p>Website: www.markups.io</p>
-                  <p>Email: info@markups.io</p>
+                  <p>900 Barnegat Blvd N Unit 2406, Barnegat, New Jersey 08005, USA</p>
+                  <p>Phone: (848) 221-6383 </p>
+                  <p>Nonprofit Website: <a href="https://helpthehomelessworldwide.org" style="color: #debf12">HTH Worldwide</a></p>
+                  <p>Email: hthcoin@gmail.com</p>
                 </address>
               </div>
             </div>
@@ -630,7 +338,7 @@
     <div class="mu-footer-bottom">
       <div class="container">
         <div class="mu-footer-bottom-area">
-          <p>&copy; All Right Reserved. Designed by <a href="http://www.markups.io/" rel="nofollow">MarkUps.io</a></p>
+          <p>&copy; All Right Reserved. Designed by Devilking6105 using <a href="http://www.markups.io/" rel="nofollow">MarkUps.io</a></p>
         </div>
       </div>
     </div>
@@ -638,12 +346,7 @@
   </footer>
   <!-- End footer -->
 
-
-
-
-
-  
-  <!-- jQuery library -->
+<!-- jQuery library -->
   <script src="assets/js/jquery.min.js"></script>  
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="assets/js/bootstrap.js"></script>   
@@ -656,7 +359,8 @@
   <script type="text/javascript" src="assets/js/jquery.mixitup.js"></script>
   <!-- Add fancyBox -->        
   <script type="text/javascript" src="assets/js/jquery.fancybox.pack.js"></script>
-
+  
+  
   <!-- Custom js -->
   <script src="assets/js/custom.js"></script> 
 
