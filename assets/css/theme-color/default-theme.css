@@ -4,8 +4,8 @@ Template Design By MarkUps.
 Author URI : http://www.markups.io/
 ========================================*/
 .scrollToTop {
-  background-color: #01bafd;
-  border: 2px solid #01bafd;
+  background-color: #34bcaa;
+  border: 2px solid rgb(255, 192, 34);
 }
 
 .mu-read-more-btn:hover, .mu-read-more-btn:focus {
@@ -40,7 +40,7 @@ Author URI : http://www.markups.io/
 }
 
 #mu-menu .navbar-default .navbar-nav > .active > a, #mu-menu .navbar-default .navbar-nav > .active > a:hover, #mu-menu .navbar-default .navbar-nav > .active > a:focus {
-  color: #01bafd;
+  color: rgb(255, 192, 34);
   border-bottom: 2px solid #01bafd;
   background-color: transparent;
 }
