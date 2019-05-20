@@ -1147,7 +1147,7 @@ img {
 }
 #mu-page-breadcrumb .mu-page-breadcrumb-area h2 {
   text-align: center;
-  color: #fff;
+  color: #debf12;
 }
 #mu-page-breadcrumb .mu-page-breadcrumb-area .breadcrumb {
   background-color: transparent;
@@ -1157,10 +1157,10 @@ img {
   text-align: center;
 }
 #mu-page-breadcrumb .mu-page-breadcrumb-area .breadcrumb li {
-  color: #fff;
+  color: #debf12;
 }
 #mu-page-breadcrumb .mu-page-breadcrumb-area .breadcrumb li a {
-  color: #fff;
+  color: #34bcaa;
 }
 
 #mu-course-content {
