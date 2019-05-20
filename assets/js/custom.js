@@ -31,15 +31,7 @@ jQuery(function($){
   /*  1. SEARCH FORM
   /* ----------------------------------------------------------- */
 
-   jQuery('#mu-search-icon').on('click', function(event) {
-        event.preventDefault();
-        $('#mu-search').addClass('mu-search-open');
-        $('#mu-search form input[type="search"]').focus();
-    });
-    
-    jQuery('.mu-search-close').on('click', function(event) {
-      $("#mu-search").removeClass('mu-search-open');
-    });
+   
 
 /* ----------------------------------------------------------- */
 /*  2. ABOUT US VIDEO
