@@ -2214,12 +2214,12 @@ img {
   }
 
   .navbar-toggle {
-    background-color: #01bafd;
+    background-color: #34bcaa;
     border-radius: 0;
   }
 
   .navbar-default .navbar-toggle {
-    border-color: #01bafd;
+    border-color: #debf12;
   }
 
   .navbar-default .navbar-toggle .icon-bar {
