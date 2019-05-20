@@ -38,7 +38,7 @@ Author URI : http://www.markups.io/
 }
 #mu-menu .navbar-default .navbar-nav .open a:hover, #mu-menu .navbar-default .navbar-nav .open a:focus {
   background-color: #34bcaa;
-  color: #debf12;
+  color: #debf12 !important;
 }
 
 #mu-menu .navbar-default .navbar-nav > .active > a, #mu-menu .navbar-default .navbar-nav > .active > a:hover, #mu-menu .navbar-default .navbar-nav > .active > a:focus {
