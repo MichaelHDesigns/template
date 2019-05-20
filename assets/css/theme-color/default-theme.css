@@ -232,7 +232,7 @@ Author URI : http://www.markups.io/
 
 #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget ul li a:hover, #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget ul li a:focus {
   color: #debf12 !important;
-  background: #34bcaa !important;
+  background: transparent !important;
 }
 #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget .mu-subscribe-form input[type="email"]:focus {
   border-color: #01bafd;
