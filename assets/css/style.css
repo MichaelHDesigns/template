@@ -104,7 +104,7 @@ img {
   transition: all 0.5s;
 }
 .mu-read-more-btn:hover, .mu-read-more-btn:focus {
-  color: #fff;
+  color: #34bcaa !important;
 }
 
 .mu-post-btn {
