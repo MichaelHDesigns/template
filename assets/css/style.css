@@ -718,7 +718,7 @@ img {
   outline: none;
 }
 #mu-latest-courses .mu-latest-courses-area .mu-latest-courses-content .slick-dots li {
-  background-color: #fff;
+  background-color: #000;
   border-radius: 4px;
   height: 8px;
   width: 20px;
