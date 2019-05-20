@@ -283,6 +283,7 @@ img {
 .scrollToTop:focus {
   color: #d34bcaa;
   background: #debf12;
+  border-color: #34bcaa !important;
 }
 
 #mu-search {
