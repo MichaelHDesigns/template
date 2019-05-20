@@ -92,7 +92,8 @@ img {
 
 .mu-read-more-btn {
   border: 1px solid #debf12;
-  color: #debf12;
+  color: #34bcaa !important;
+  background: #000 !important;
   display: inline-block;
   margin-top: 10px;
   padding: 10px 20px;
@@ -104,7 +105,7 @@ img {
   transition: all 0.5s;
 }
 .mu-read-more-btn:hover, .mu-read-more-btn:focus {
-  color: #34bcaa !important;
+  color: #debf12 !important;
 }
 
 .mu-post-btn {
