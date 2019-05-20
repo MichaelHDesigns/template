@@ -250,7 +250,7 @@ img {
 .scrollToTop {
   border-radius: 4px;
   bottom: 60px;
-  color: #;
+  color: #debf12;
   display: none;
   font-size: 30px;
   line-height: 50px;
@@ -281,7 +281,8 @@ img {
 
 .scrollToTop:hover,
 .scrollToTop:focus {
-  color: #fff;
+  color: #d34bcaa;
+  background: #debf12;
 }
 
 #mu-search {
