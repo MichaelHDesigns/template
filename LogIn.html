@@ -1,91 +1,28 @@
-<html><head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>HTH World | Log in</title>
-  <!-- Tell the browser to be responsive to screen width -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  <!-- Ionicons -->
-  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-  <!-- Theme style -->
-  <link rel="stylesheet" href="https://tracking.carebit.org/public/css/frontend_css/adminlte.min.css">
-  <!-- iCheck -->
-  <link rel="stylesheet" href="https://tracking.carebit.org/public/css/frontend_css/plugins/iCheck/square/blue.css">
-  <!-- Google Font: Source Sans Pro -->
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+<html>
+<head>
+  <title>HTH World Login</title>
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="Assests/CSS/style.css" />
 </head>
-<body class="hold-transition login-page">
-<div class="login-box">
-  <div class="login-logo">
-    <img src="assets/img/favicon.ico" border="0" width="356">
+<body>
+
+  <div id="login_div" class="main-div">
+    <h3>Login below to access HTH World</h3>
+    <input type="email" placeholder="Email..." id="email_field" />
+    <input type="password" placeholder="Password..." id="password_field" />
+
+    <button onclick="login()">Login to Account</button>
   </div>
-  <!-- /.login-logo -->
-  <div class="card">
-    <div class="card-body login-card-body">
-      <p class="login-box-msg">Sign in to start your session</p>
-	    
-          <form action="LogIn.html" method="post" name="login_donor" id="login_donor" onsubmit="return validate_login_donor_form();">
-      <input type="hidden" name="_token" value="0F7LJ6heXmH3kJytwJEBa2p4XwksKk8BBWFIRdMw">
-        <div class="form-group has-feedback">
-          <input type="email" name="email" id="email" class="form-control" placeholder="Email">
-          <span class="fa fa-envelope form-control-feedback">&nbsp;</span>
-                    
-        </div>
-        <div class="form-group has-feedback">
-          <input type="password" name="password" id="password" class="form-control" placeholder="Password">
-          <span class="fa fa-lock form-control-feedback">&nbsp;</span>
-                  </div>
-        <div class="row">
-          <div class="col-8">
-            <!-- div class="checkbox icheck">
-              <label>
-                <input type="checkbox"> Remember Me
-              </label>
-            </div -->
-            <p class="mb-1">
-            <a href="LostPassword.html">I forgot my password</a>
-            <!-- a href="#">I forgot my password</a -->
-            </p>
-            <p class="mb-0">
-            <a href="Register.html" class="text-center">Register a new membership</a>
-            </p>
-          </div>
-          <!-- /.col -->
-          <div class="col-4">
-            <button type="submit" class="btn btn-primary btn-block btn-flat" name="SignIn" id="SignIn">Sign In</button>
-          </div>
-          <!-- /.col -->
-        </div>
-      </form>
 
-      <!-- div class="social-auth-links text-center mb-3">
-        <p>- OR -</p>
-        <a href="#" class="btn btn-block btn-primary">
-          <i class="fa fa-facebook mr-2"></i> Sign in using Facebook
-        </a>
-        <a href="#" class="btn btn-block btn-danger">
-          <i class="fa fa-google-plus mr-2"></i> Sign in using Google+
-        </a>
-      </div -->
-      <!-- /.social-auth-links -->
-
-      
-    </div>
-    <!-- /.login-card-body -->
+  <div id="user_div" class="loggedin-div">
+    <h3>Welcome User</h3>
+    <p id="user_para">Welcome to Firebase web login Example. You're currently logged in.</p>
+    <button onclick="logout()">Logout</button>
   </div>
-</div>
-<!-- /.login-box -->
-
-<!-- jQuery -->
-<script src="Assests/JS/jquery.min.js"></script>
-<!-- Bootstrap 4 -->
-<script src="Assests/JS/bootstrap.bundle.min.js"></script>
-
-<script src="Assests/JS/users-forms-validations.js"></script>
 
 	
-	<!-- The core Firebase JS SDK is always required and must be listed first -->
+	
+		<!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-app.js"></script>
 
 <!-- TODO: Add SDKs for Firebase products that you want to use
@@ -106,5 +43,5 @@
   firebase.initializeApp(firebaseConfig);
 </script>
 
-
-</body></html>
+</body>
+</html>
