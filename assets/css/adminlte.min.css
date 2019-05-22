@@ -2437,14 +2437,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-info {
-    color: #debf12;
-    background-color: #34bcaa;
-    border-color: #000;
+    color: #34bcaa;
+    background-color: #000;
+    border-color: #debf12;
     box-shadow: 0 1px 1px rgba(0, 0, 0, .075)
 }
 
 .btn-info:hover {
-    color: #34bcaa;
+    color: #debf12;
     background-color: #000;
     border-color: #debf12
 }
