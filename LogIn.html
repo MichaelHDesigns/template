@@ -1,0 +1,89 @@
+<html><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Carebit Portal | Log in</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="https://tracking.carebit.org/public/css/frontend_css/adminlte.min.css">
+  <!-- iCheck -->
+  <link rel="stylesheet" href="https://tracking.carebit.org/public/css/frontend_css/plugins/iCheck/square/blue.css">
+  <!-- Google Font: Source Sans Pro -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+</head>
+<body class="hold-transition login-page">
+<div class="login-box">
+  <div class="login-logo">
+    <img src="https://tracking.carebit.org/public/images/frontend_images/carebit-logo.png" border="0" width="356">
+  </div>
+  <!-- /.login-logo -->
+  <div class="card">
+    <div class="card-body login-card-body">
+      <p class="login-box-msg">Sign in to start your session</p>
+	    
+          <form action="LogIn.html" method="post" name="login_donor" id="login_donor" onsubmit="return validate_login_donor_form();">
+      <input type="hidden" name="_token" value="0F7LJ6heXmH3kJytwJEBa2p4XwksKk8BBWFIRdMw">
+        <div class="form-group has-feedback">
+          <input type="email" name="email" id="email" class="form-control" placeholder="Email">
+          <span class="fa fa-envelope form-control-feedback">&nbsp;</span>
+                    
+        </div>
+        <div class="form-group has-feedback">
+          <input type="password" name="password" id="password" class="form-control" placeholder="Password">
+          <span class="fa fa-lock form-control-feedback">&nbsp;</span>
+                  </div>
+        <div class="row">
+          <div class="col-8">
+            <!-- div class="checkbox icheck">
+              <label>
+                <input type="checkbox"> Remember Me
+              </label>
+            </div -->
+            <p class="mb-1">
+            <a href="LostPassword.html">I forgot my password</a>
+            <!-- a href="#">I forgot my password</a -->
+            </p>
+            <p class="mb-0">
+            <a href="Register.html" class="text-center">Register a new membership</a>
+            </p>
+          </div>
+          <!-- /.col -->
+          <div class="col-4">
+            <button type="submit" class="btn btn-primary btn-block btn-flat" name="SignIn" id="SignIn">Sign In</button>
+          </div>
+          <!-- /.col -->
+        </div>
+      </form>
+
+      <!-- div class="social-auth-links text-center mb-3">
+        <p>- OR -</p>
+        <a href="#" class="btn btn-block btn-primary">
+          <i class="fa fa-facebook mr-2"></i> Sign in using Facebook
+        </a>
+        <a href="#" class="btn btn-block btn-danger">
+          <i class="fa fa-google-plus mr-2"></i> Sign in using Google+
+        </a>
+      </div -->
+      <!-- /.social-auth-links -->
+
+      
+    </div>
+    <!-- /.login-card-body -->
+  </div>
+</div>
+<!-- /.login-box -->
+
+<!-- jQuery -->
+<script src="Assests/JS/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="Assests/JS/bootstrap.bundle.min.js"></script>
+
+<script src="Assests/JS/users-forms-validations.js"></script>
+
+
+
+</body></html>
