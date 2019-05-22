@@ -184,7 +184,7 @@ sup {
 }
 
 a {
-    color: red;
+    color: #007bff;
     text-decoration: none;
     background-color: transparent;
     -webkit-text-decoration-skip: objects
@@ -2327,9 +2327,9 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary:hover {
-    color: #fff;
-    background-color: #0069d9;
-    border-color: #0062cc
+    color: #debf12;
+    background-color: #34bcaa;
+    border-color: #000
 }
 
 .btn-primary.focus,
@@ -2339,9 +2339,9 @@ fieldset:disabled a.btn {
 
 .btn-primary.disabled,
 .btn-primary:disabled {
-    color: #fff;
-    background-color: #007bff;
-    border-color: #007bff
+    color: #debf12;
+    background-color: #34bcaa;
+    border-color: #000
 }
 
 .btn-primary:not(:disabled):not(.disabled).active,
