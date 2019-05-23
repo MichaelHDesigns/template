@@ -109,8 +109,9 @@ img {
 }
 
 .mu-post-btn {
-  background-color: transparent;
-  border: 1px solid #ccc;
+  background-color: #000;
+  color: #34bcaa !important;
+  border: 1px solid #34bcaa;
   display: inline-block;
   font-size: 16px;
   padding: 10px 18px;
@@ -121,7 +122,8 @@ img {
   transition: all 0.5s;
 }
 .mu-post-btn:hover, .mu-post-btn:focus {
-  color: #fff;
+  color: #debf12 !important;
+  background: #000 !important;
 }
 
 /* LAYOUTS - Page layout styles */
