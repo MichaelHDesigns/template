@@ -1700,6 +1700,7 @@ img{
 
 .work-section{
 	position: relative;
+	top: 500px;
 	padding: 95px 0 50px;
 	background-repeat: no-repeat;
 	background-position: center;
