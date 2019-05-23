@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Land For The Homeless",
+    "banner": "https://raw.githubusercontent.com/HTHcoin/web/master/images/partners/landforthehomeless.png",
+    "link": "https://www.landforthehomeless.org/",
+    "donationAddy": "HFWpQU9VbEFMvEnNgdXjH6xC5zdUvKEadr"
+  },
+  {
+    "name": "GrassRootsCrisis",
+    "banner": "https://raw.githubusercontent.com/HTHcoin/web/master/images/partners/Grassroots.jpg",
+    "link": "http://www.grassrootscrisis.org/",
+    "donationAddy": "HUrsYtBYQqCPCqezHN5k51vKWXpFiNpwrz"
+  },
+  {
+    "name": "The Salvation Army",
+    "banner": "https://raw.githubusercontent.com/HTHcoin/web/master/images/partners/byyourside.png",
+    "link": "http://www.salvationarmy.gr/",
+    "donationAddy": "HQvnLwk1wvzY8jPjVtDdx8JVBnD3i6G5zk"
+  },
+  {
+    "name": "My Crypto Stats",
+    "banner": "https://raw.githubusercontent.com/HTHcoin/web/master/images/partners/mycryptostats.png",
+    "link": "https://mycryptostats.com/",
+    "description": "A simple dashboard tool to easily keep an eye on current prices, wallet balances, and your miners estimated earnings."
+  },
+  {
+    "name": "Smartrade",
+    "banner": "https://raw.githubusercontent.com/HTHcoin/web/master/images/partners/smartrade.png",
+    "link": "https://smartrade.com/",
+    "description": "Trading platform to buy with USD or coins."
+  },
+  {
+    "name": "Host of HTHW partner masternodes",
+    "banner": "https://raw.githubusercontent.com/HTHcoin/web/master/images/partners/banner_MNworld_7.png",
+    "link": "https://masternode-world.com/",
+    "description": "Host of HTHW partner masternodes"
+  },
+  {
+    "name": "MSM Moore Foundation",
+    "banner": "https://raw.githubusercontent.com/HTHcoin/web/master/images/partners/msm.png",
+    "link": "http://Www.msmmoorefoundation.org",
+    "donationAddy": "HEDnfLS2Mwa3vXQvbmPfQ9x1kCvingyHRe"
+  },
+  {
+    "name": "SGQ Urban",
+    "banner": "https://raw.githubusercontent.com/HTHcoin/web/master/images/partners/SGQURBAN.png",
+    "link": "http://www.sgqurban.org/",
+    "donationAddy": "HVjWf3WgPLUqJsiz9WkBTGtBb3i5kSkVS2"
+  }
+]
