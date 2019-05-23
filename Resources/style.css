@@ -4649,7 +4649,7 @@ img{
 	height: 1px;
 	width: 100%;
 	max-width: 420px;
-	background-color: #666666;
+	background-color: #1a1a1a !important;
 	content: "";
 }
 
