@@ -826,24 +826,24 @@ img {
 ====================*/
 #mu-our-teacher {
   display: inline;
-  float: left;
+  float: center;
   padding: 100px 0;
   width: 100%;
 }
 #mu-our-teacher .mu-our-teacher-area {
   display: inline;
-  float: left;
+  float: center;
   width: 100%;
 }
 #mu-our-teacher .mu-our-teacher-area .mu-our-teacher-content {
   display: inline;
-  float: left;
+  float: center;
   margin-top: 50px;
   width: 100%;
 }
 #mu-our-teacher .mu-our-teacher-area .mu-our-teacher-content .mu-our-teacher-single {
   display: inline;
-  float: left;
+  float: center;
   width: 100%;
 }
 #mu-our-teacher .mu-our-teacher-area .mu-our-teacher-content .mu-our-teacher-single:hover .mu-our-teacher-img .mu-our-teacher-social {
@@ -860,7 +860,7 @@ img {
   background-color: #ccc;
   display: inline;
   position: relative;
-  float: left;
+  float: center;
   width: 100%;
 }
 #mu-our-teacher .mu-our-teacher-area .mu-our-teacher-content .mu-our-teacher-single .mu-our-teacher-img img {
@@ -908,7 +908,7 @@ img {
 }
 #mu-our-teacher .mu-our-teacher-area .mu-our-teacher-content .mu-our-teacher-single .mu-ourteacher-single-content {
   display: inline;
-  float: left;
+  float: center;
   width: 100%;
 
 }
